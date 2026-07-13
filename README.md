@@ -80,12 +80,12 @@ The objective of this project is to create a modern, responsive, and user-friend
 
 # 👩‍💻 Developed By
 
+## 👩‍💻 Developed By
+
 **Sakshi Rathod**
 
-B.Sc. Computer Science Student
-
----
-
+🎓 B.Sc. Computer Science Student  
+💻 Web Development Intern @ Oasis Infobyte
 # 🙏 Acknowledgement
 
 This project was developed as part of the **Oasis Infobyte Web Development Internship (OIBSIP)**.
