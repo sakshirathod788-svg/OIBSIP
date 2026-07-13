@@ -1,34 +1,30 @@
 # ☕ Moon Light Cafe - Landing Page
 
-A modern and responsive landing page for **Moon Light Cafe**, designed using HTML, CSS, and JavaScript. This project was created as part of the **Oasis Infobyte Web Development Internship (OIBSIP)**.
+A modern and responsive landing page for **Moon Light Cafe**, designed using **HTML5, CSS3, and JavaScript**. This project was developed as part of the **Oasis Infobyte Web Development Internship (OIBSIP)**.
 
 ---
 
-## 📌 Project Overview
+# 📌 Project Overview
 
-Moon Light Cafe is a visually appealing landing page that showcases:
-- A beautiful hero section
-- About Us section
-- Special Menu
-- Contact Information
-- Responsive and modern design
+Moon Light Cafe is a visually appealing and responsive landing page that provides users with a modern cafe browsing experience. The website includes a beautiful hero section, an attractive About Us section, a special menu, and contact information with a clean and elegant design.
 
 ---
 
-## 🚀 Features
+# 🚀 Features
 
 - 🌟 Attractive Hero Section
 - ☕ Beautiful Cafe Theme
-- 📖 About Us Section
-- 🍕 Special Menu Cards
-- 📞 Contact Section
-- 📱 Responsive Design
+- 📖 Professional About Us Section
+- 🍔 Special Menu Cards
+- 📞 Contact Information
+- 📱 Fully Responsive Layout
 - 🎨 Smooth Hover Effects
-- ⚡ Clean and Simple User Interface
+- ⚡ Clean User Interface
+- 🌙 Modern Color Palette
 
 ---
 
-## 🛠️ Technologies Used
+# 🛠️ Technologies Used
 
 - HTML5
 - CSS3
@@ -36,7 +32,7 @@ Moon Light Cafe is a visually appealing landing page that showcases:
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
 ```
 OIBSIP/
@@ -48,25 +44,41 @@ OIBSIP/
 
 ---
 
-## 🎯 Project Objective
+# 🎯 Project Objective
 
-The objective of this project is to design a professional and responsive landing page using front-end web technologies while improving UI/UX design skills.
-
----
-
-## 💡 Future Improvements
-
-- Online Table Reservation
-- Food Ordering System
-- Dark Mode
-- Customer Reviews
-- Image Gallery
-- Google Maps Integration
-- Animation Effects
+The objective of this project is to create a modern, responsive, and user-friendly landing page using front-end web technologies while improving web design and development skills.
 
 ---
 
-## 👩‍💻 Developed By
+# 🔗 Live Demo
+
+🌐 https://sakshirathod788-svg.github.io/OIBSIP/
+
+---
+
+# 📸 Website Sections
+
+- 🏠 Home
+- 📖 About Us
+- 🍕 Special Menu
+- 📞 Contact Us
+
+---
+
+# 💡 Future Improvements
+
+- 🛒 Online Food Ordering
+- 📅 Table Reservation System
+- 🌙 Dark Mode
+- ⭐ Customer Reviews
+- 🖼️ Image Gallery
+- 📍 Google Maps Integration
+- ✨ Scroll Animations
+- 📧 Contact Form with Email Support
+
+---
+
+# 👩‍💻 Developed By
 
 **Sakshi Rathod**
 
@@ -74,12 +86,14 @@ B.Sc. Computer Science Student
 
 ---
 
-## 🙏 Acknowledgement
+# 🙏 Acknowledgement
 
 This project was developed as part of the **Oasis Infobyte Web Development Internship (OIBSIP)**.
 
 ---
 
-## ⭐ If you like this project
+# ⭐ Support
 
-Please consider giving this repository a **⭐ Star**.
+If you like this project, please give this repository a **⭐ Star**.
+
+Thank you for visiting my project!
