@@ -53,6 +53,39 @@ body{
 .nav-links a:hover{
     color:#ffcc80;
 }
+.menu-toggle{
+    display:none;
+    font-size:30px;
+    color:white;
+    cursor:pointer;
+}
+
+@media (max-width:768px){
+
+    .menu-toggle{
+        display:block;
+    }
+
+    .nav-links{
+        display:none;
+        flex-direction:column;
+        width:100%;
+        background:#4b2e2e;
+        position:absolute;
+        top:70px;
+        left:0;
+        text-align:center;
+        padding:20px 0;
+    }
+
+    .nav-links.active{
+        display:flex;
+    }
+
+    .nav-links li{
+        margin:15px 0;
+    }
+}
 
 .hero{
     height:90vh;
