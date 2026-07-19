@@ -291,3 +291,28 @@ footer p{
 }
 style.css
 Displaying index.html.
+.why-us{
+    padding:80px 10%;
+    text-align:center;
+}
+
+.features{
+    display:flex;
+    gap:20px;
+    justify-content:center;
+    flex-wrap:wrap;
+    margin-top:40px;
+}
+
+.feature-card{
+    background:#fff;
+    padding:25px;
+    border-radius:15px;
+    width:280px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.feature-card:hover{
+    transform:translateY(-8px);
+}
