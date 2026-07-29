@@ -230,11 +230,44 @@ if (reservationForm) {
         const date = document.getElementById("res-date").value;
         const time = document.getElementById("res-time").value;
 
-        reservationStatus.style.color = "#2e7d32";
-        reservationStatus.textContent =
-            `Thank you, ${name}! Your table is requested for ${date} at ${time}. We'll confirm shortly by phone.`;
+        const submitBtn = reservationForm.querySelector(".form-submit");
+        submitBtn.disabled = true;
+        submitBtn.textContent = "Sending...";
+        reservationStatus.style.color = "#555";
+        reservationStatus.textContent = "Sending your reservation...";
 
-        reservationForm.reset();
-        fields.forEach((field) => field.classList.remove("invalid"));
+        const formData = new FormData(reservationForm);
+        const payload = Object.fromEntries(formData);
+
+        fetch("https://api.web3forms.com/submit", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                Accept: "application/json"
+            },
+            body: JSON.stringify(payload)
+        })
+            .then(async (response) => {
+                const result = await response.json();
+
+                if (response.status === 200 && result.success) {
+                    reservationStatus.style.color = "#2e7d32";
+                    reservationStatus.textContent =
+                        `Thank you, ${name}! Your table is requested for ${date} at ${time}. We'll confirm shortly by phone.`;
+                    reservationForm.reset();
+                    fields.forEach((field) => field.classList.remove("invalid"));
+                } else {
+                    throw new Error(result.message || "Something went wrong.");
+                }
+            })
+            .catch(() => {
+                reservationStatus.style.color = "#c62828";
+                reservationStatus.textContent =
+                    "Something went wrong sending your reservation. Please call us directly at +91 9876543210.";
+            })
+            .finally(() => {
+                submitBtn.disabled = false;
+                submitBtn.textContent = "Confirm Reservation";
+            });
     });
 }
