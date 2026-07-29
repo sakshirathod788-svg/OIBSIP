@@ -7,9 +7,10 @@ This project represents my professional profile, skills, projects, education, an
 ---
 
 ## 🔗 Live Demo
+## 🔗 Live Demo
 
 🌍 Portfolio Website:  
-https://sakshirathod788-svg.github.io/OIBSIP/
+https://sakshirathod788-svg.github.io/WebDev-L2-Portfolio/
 
 ---
 
