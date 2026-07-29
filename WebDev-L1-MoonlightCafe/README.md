@@ -1,6 +1,3 @@
-# Moon Light Cafe
-
-My Oasis Infobyte Level 1 Web Development Project.
 # ☕ Moon Light Cafe - Landing Page
 
 A modern and responsive landing page for **Moon Light Cafe**, designed using **HTML5, CSS3, and JavaScript**. This project was developed as part of the **Oasis Infobyte Web Development Internship (OIBSIP)**.
@@ -9,7 +6,7 @@ A modern and responsive landing page for **Moon Light Cafe**, designed using **H
 
 # 📌 Project Overview
 
-Moon Light Cafe is a visually appealing and responsive landing page that provides users with a modern cafe browsing experience. The website includes a beautiful hero section, an attractive About Us section, a special menu, and contact information with a clean and elegant design.
+Moon Light Cafe is a visually appealing and responsive landing page that provides users with a modern cafe browsing experience. The website includes a beautiful hero section, an attractive About Us section, a special menu with category filtering, a table reservation system, customer testimonials, and contact information — all wrapped in a clean, elegant design with light/dark mode support.
 
 ---
 
@@ -18,7 +15,13 @@ Moon Light Cafe is a visually appealing and responsive landing page that provide
 - 🌟 Attractive Hero Section
 - ☕ Beautiful Cafe Theme
 - 📖 Professional About Us Section
-- 🍔 Special Menu Cards
+- 🍔 Special Menu Cards with Category Filters (Coffee / Food / Desserts)
+- 📅 Table Reservation Form with Live Validation & Confirmation
+- ⭐ Customer Testimonials Slider
+- 🌙 Dark Mode Toggle (remembers your preference)
+- ✨ Scroll-Reveal Animations
+- 🧭 Sticky Navigation with Scroll-Spy Highlighting
+- ⬆️ Back-to-Top Button
 - 📞 Contact Information
 - 📱 Fully Responsive Layout
 - 🎨 Smooth Hover Effects
@@ -31,7 +34,7 @@ Moon Light Cafe is a visually appealing and responsive landing page that provide
 
 - HTML5
 - CSS3
-- JavaScript
+- JavaScript (Vanilla JS — no frameworks or libraries)
 
 ---
 
@@ -63,7 +66,10 @@ The objective of this project is to create a modern, responsive, and user-friend
 
 - 🏠 Home
 - 📖 About Us
-- 🍕 Special Menu
+- 🤔 Why Choose Us
+- 🍕 Special Menu (filterable by category)
+- ⭐ Testimonials
+- 📅 Book a Table
 - 📞 Contact Us
 
 ---
@@ -71,24 +77,19 @@ The objective of this project is to create a modern, responsive, and user-friend
 # 💡 Future Improvements
 
 - 🛒 Online Food Ordering
-- 📅 Table Reservation System
-- 🌙 Dark Mode
-- ⭐ Customer Reviews
 - 🖼️ Image Gallery
 - 📍 Google Maps Integration
-- ✨ Scroll Animations
 - 📧 Contact Form with Email Support
+- 🔐 Backend Integration for Real-Time Reservation Storage
 
 ---
 
 # 👩‍💻 Developed By
 
-## 👩‍💻 Developed By
-
 **Sakshi Rathod**
-
-🎓 B.Sc. Computer Science Student  
+🎓 B.Sc. Computer Science Student
 💻 Web Development Intern @ Oasis Infobyte
+
 # 🙏 Acknowledgement
 
 This project was developed as part of the **Oasis Infobyte Web Development Internship (OIBSIP)**.
@@ -98,7 +99,7 @@ This project was developed as part of the **Oasis Infobyte Web Development Inter
 # ⭐ Support
 
 If you like this project, please give this repository a **⭐ Star**.
-
 Thank you for visiting my project!
-🌐 **Live Website:**  
+
+🌐 **Live Website:**
 👉 [Moon Light Cafe Website](https://sakshirathod788-svg.github.io/OIBSIP/)
