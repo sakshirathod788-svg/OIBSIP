@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Premium Temperature Converter</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Animated Background -->
+    <div class="background">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <div class="container">
+
+        <!-- Left Side -->
+        <div class="info">
+
+            <h1>🌡 Premium Temperature Converter</h1>
+
+            <p>
+                Convert temperatures instantly between
+                Celsius, Fahrenheit, and Kelvin with a clean,
+                elegant and responsive interface.
+            </p>
+
+            <div class="features">
+
+                <div class="feature-card">
+                    ⚡ Fast Conversion
+                </div>
+
+                <div class="feature-card">
+                    🎨 Beautiful UI
+                </div>
+
+                <div class="feature-card">
+                    📱 Responsive Design
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Right Side -->
+        <div class="converter-card">
+
+            <h2>Temperature Converter</h2>
+
+            <div class="input-group">
+
+                <label>Enter Temperature</label>
+
+                <input
+                    type="number"
+                    id="temperature"
+                    placeholder="Enter value">
+
+            </div>
+
+            <div class="unit-row">
+
+                <div>
+
+                    <label>From</label>
+
+                    <select id="fromUnit">
+
+                        <option value="Celsius">Celsius</option>
+                        <option value="Fahrenheit">Fahrenheit</option>
+                        <option value="Kelvin">Kelvin</option>
+
+                    </select>
+
+                </div>
+
+                <button id="swapBtn">
+                    ⇄
+                </button>
+
+                <div>
+
+                    <label>To</label>
+
+                    <select id="toUnit">
+
+                        <option value="Fahrenheit">Fahrenheit</option>
+                        <option value="Celsius">Celsius</option>
+                        <option value="Kelvin">Kelvin</option>
+
+                    </select>
+
+                </div>
+
+            </div>
+
+            <button id="convertBtn">
+                Convert Temperature
+            </button>
+
+            <div class="result-box">
+
+                <h3>Converted Value</h3>
+
+                <h1 id="resultValue">
+                    --
+                </h1>
+
+                <p id="resultUnit">
+                    Select units and convert
+                </p>
+
+            </div>
+
+            <div class="extra-results">
+
+                <div class="small-card">
+                    <h4>Celsius</h4>
+                    <p id="celsiusValue">--</p>
+                </div>
+
+                <div class="small-card">
+                    <h4>Fahrenheit</h4>
+                    <p id="fahrenheitValue">--</p>
+                </div>
+
+                <div class="small-card">
+                    <h4>Kelvin</h4>
+                    <p id="kelvinValue">--</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <p>
+            Made with ❤️ using HTML, CSS & JavaScript
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
