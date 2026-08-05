@@ -84,20 +84,7 @@ in your browser.
 
 ## 📸 Screenshot
 
-> Add a screenshot of your project here.
-
-Example:
-
-```
-images/screenshot.png
-```
-
-```md
-![Temperature Converter](images/screenshot.png)
-```
-
----
-
+![Premium Temperature Converter](images/screenshot.png)
 ## 🎯 Learning Outcomes
 
 This project helped me practice:
